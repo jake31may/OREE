@@ -1,16 +1,9 @@
 function [cw,k_cw,cw_r,Cw_max,WavePower] = CaptureWidth(WECpower,WaveAmplitude,WaveFrequency,WECRadius)
-%%
-% i = 1:31;
-% WECpower = AvPower(i);
-% WaveAmplitude = M(i).Amplitude;
-% WaveFrequency = M(i).RegFrequency;
-% WECRadius = WECRadius;
 
 %%
 g = 9.81;
 rho = 1000;
 z = 3;
-
 
 omega = 2*pi*WaveFrequency;
 
