@@ -1,6 +1,7 @@
 This code has been developed to extract and analyse data for the outward-protruding point-absorber wave energy converter as part of a Masters thesis in 2022. This code was developed in MATLAB and processes the bulk of the data in structs. Unfortunately, a quirk of this language does not allow multiple functions to be declared within a single script, so these are in separate  .m files.
 
-Prerequisites: \\
+Prerequisites:
+
 This code was performed on MATLAB version R2022a. Backwards compatibility has not been checked. 
 
 Input files: 
@@ -10,6 +11,7 @@ Input files:
 (This analysis only considered heave motion, however the code could easily be modified to extract other degrees of freedom.) 
 
 Workflow for regular wave testing:
+
 Three models were tested: cylinder, compound and diamond. For regular waves, each model had its own script as different waves tests (Cylinder2.m, Compound2.m, and Diamond.m). If using, download one of these and adapt as necessary. 
 
 Place all the .tsv and .txt files into a folder, and specify the file path and folder in the script. You will also need to specify the frequency , wave amplitude and sample frequency for each test run as a vector in alphabetical order. The start and end frame of the data also need to specified - this allows the removal of unwanted data earlier, but the window of analysis is determined later. 
