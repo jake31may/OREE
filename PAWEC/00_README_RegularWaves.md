@@ -1,6 +1,6 @@
 This code has been developed to extract and analyse data for the outward-protruding point-absorber wave energy converter as part of a Masters thesis in 2022. This code was developed in MATLAB and processes the bulk of the data in structs. Unfortunately, a quirk of this language does not allow multiple functions to be declared within a single script, so these are in separate  .m files.
 
-Prerequisites: 
+Prerequisites: \\
 This code was performed on MATLAB version R2022a. Backwards compatibility has not been checked. 
 
 Input files: 
